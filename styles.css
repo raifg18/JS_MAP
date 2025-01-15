@@ -1,0 +1,82 @@
+/* Estilo para la leyenda */
+.leyenda {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    z-index: 1000;
+}
+  
+.leyenda h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+  
+.leyenda h4 {
+    margin: 10px 0 5px 0;
+    font-size: 13px;
+}
+  
+.leyenda ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.leyenda li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+  
+.leyenda .color {
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+  
+.leyenda .borde {
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid;
+    background: none;
+}
+  
+.leyenda .borde-marron {
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid brown;
+    background: rgba(165, 42, 42, 0.3); /* Color marrón semitransparente */
+}
+  
+.leyenda .linea {
+    width: 20px;
+    height: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+/* Estilo para las etiquetas de los distritos */
+.etiqueta-distrito {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+    transform: translate(-50%, -50%); /* Centrar la etiqueta */
+    white-space: nowrap;
+}        

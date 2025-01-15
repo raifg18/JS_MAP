@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visor de mapas con Leaflet - Rupa Rupa</title>
+  <!-- Cargar Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Cargar el CSS personalizado -->
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    #map {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="map" aria-label="Visor de mapas interactivo"></div>
+
+  <!-- Contenedor de la leyenda -->
+  <div id="leyenda" class="leyenda">
+    <h3>Leyenda</h3>
+    <ul>
+      <li><span class="color borde" style="border-color: green;"></span> BRUNAS (217,22 ha)</li>
+      <li><span class="color borde" style="border-color: black;"></span> Distritos</li>
+      <li><span class="color borde-marron"></span> PNTM (4777,80 ha)</li>
+      <li><span class="linea" style="background-color: navy;"></span> Quebradas BRUNAS</li>
+      <li><span class="linea" style="background-color: gray;"></span> Vías BRUNAS</li>
+    </ul>
+    <h4>Clasificación de Área de estudio</h4>
+    <ul>
+      <li><span class="color" style="background-color: red;"></span> No Bosque</li>
+      <li><span class="color" style="background-color: orange;"></span> Pérdida 2001-2020</li>
+      <li><span class="color" style="background-color: green; opacity: 0.7;"></span> Bosque 2022</li>
+      <li><span class="color" style="background-color: blue;"></span> Hidrografía</li>
+    </ul>
+  </div>
+
+  <!-- Cargar Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Cargar Turf.js -->
+  <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+  <!-- Cargar el script personalizado -->
+  <script src="app.js"></script>
+</body>
+</html>
