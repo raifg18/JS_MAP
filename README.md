@@ -1,6 +1,6 @@
 # **JS_MAP - Visor SIG Interactivo**
 
-[**JS_MAP - Visor SIG Interactivo**](https://raifg18.github.io/JS_MAP) es un proyecto desarrollado con **ArcGIS for JavaScript**, que permite la visualización y gestión de datos geoespaciales a través de un visor interactivo. Este visor incluye capas espaciales importantes, un mapa base dinámico, herramientas de búsqueda y una leyenda intuitiva.
+[**JS_MAP - Visor SIG Interactivo**](https://raifg18.github.io/JS_MAP) es un proyecto desarrollado, que permite la visualización y gestión de datos geoespaciales a través de un visor interactivo. Este visor incluye capas espaciales importantes, un mapa base dinámico, herramientas de búsqueda y una leyenda intuitiva.
 
 ## **Características principales**
 
